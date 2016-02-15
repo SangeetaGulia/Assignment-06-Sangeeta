@@ -1,0 +1,415 @@
+<scoverage 
+statement-count="112" statements-invoked="75" statement-rate="66.96" branch-rate="100.00" version="1.0" timestamp="1455348989529">
+    <packages>
+        <package name="com.knoldus" statement-count="112" statements-invoked="75" statement-rate="66.96">
+            <classes>
+                <class 
+                name="StudentImpl" filename="com/knoldus/StudentImpl.scala" statement-count="52" statements-invoked="33" statement-rate="63.46" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus/StudentImpl/deleteRecord" statement-count="11" statements-invoked="6" statement-rate="54.55" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="deleteRecord" start="1221" end="1286" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="deleteRecord" start="1404" end="1419" line="54" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="deleteRecord" start="1429" end="1474" line="55" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="deleteRecord" start="1134" end="1149" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="deleteRecord" start="1240" end="1285" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="deleteRecord" start="1123" end="1314" line="45" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="deleteRecord" start="1441" end="1473" line="55" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="deleteRecord" start="1380" end="1420" line="54" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="deleteRecord" start="1178" end="1200" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="deleteRecord" start="1483" end="1484" line="56" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="deleteRecord" start="1293" end="1305" line="49" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus/StudentImpl/updateEmail" statement-count="11" statements-invoked="6" statement-rate="54.55" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateEmail" start="2083" end="2105" line="81" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateEmail" start="2417" end="2418" line="90" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateEmail" start="2221" end="2233" line="83" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateEmail" start="2308" end="2348" line="88" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateEmail" start="2357" end="2408" line="89" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateEmail" start="2039" end="2054" line="80" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateEmail" start="2126" end="2214" line="82" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateEmail" start="2332" end="2347" line="88" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateEmail" start="2028" end="2242" line="79" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateEmail" start="2369" end="2407" line="89" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateEmail" start="2145" end="2213" line="82" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus/StudentImpl/insertRecord" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="insertRecord" start="1015" end="1048" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="insertRecord" start="773" end="859" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="insertRecord" start="656" end="888" line="28" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="insertRecord" start="867" end="879" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="insertRecord" start="954" end="994" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="insertRecord" start="711" end="733" line="30" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="insertRecord" start="1058" end="1059" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="insertRecord" start="667" end="682" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="insertRecord" start="1003" end="1049" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="insertRecord" start="754" end="860" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="insertRecord" start="978" end="993" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus/StudentImpl/getConnection" statement-count="8" statements-invoked="4" statement-rate="50.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="getConnection" start="550" end="554" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="getConnection" start="236" end="274" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="getConnection" start="466" end="481" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="getConnection" start="291" end="376" line="14" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="getConnection" start="491" end="541" line="21" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="getConnection" start="192" end="229" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="getConnection" start="314" end="365" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="getConnection" start="442" end="482" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus/StudentImpl/updateName" statement-count="11" statements-invoked="6" statement-rate="54.55" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateName" start="2807" end="2844" line="105" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateName" start="2594" end="2657" line="98" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateName" start="2488" end="2682" line="95" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateName" start="2663" end="2675" line="99" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateName" start="2746" end="2786" line="104" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateName" start="2536" end="2558" line="97" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateName" start="2854" end="2855" line="106" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateName" start="2575" end="2658" line="98" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateName" start="2770" end="2785" line="104" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateName" start="2497" end="2512" line="96" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="StudentImpl" class-type="Class" top-level-class="StudentImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala" method="updateName" start="2795" end="2845" line="105" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="SubjectImpl" filename="com/knoldus/SubjectImpl.scala" statement-count="30" statements-invoked="21" statement-rate="70.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus/SubjectImpl/insertRecord" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="insertRecord" start="720" end="742" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="insertRecord" start="1054" end="1055" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="insertRecord" start="846" end="858" line="33" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="insertRecord" start="933" end="973" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="insertRecord" start="982" end="1045" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="insertRecord" start="676" end="691" line="30" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="insertRecord" start="763" end="839" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="insertRecord" start="957" end="972" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="insertRecord" start="665" end="867" line="29" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="insertRecord" start="994" end="1044" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="insertRecord" start="782" end="838" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus/SubjectImpl/getConnection" statement-count="8" statements-invoked="4" statement-rate="50.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="getConnection" start="229" end="266" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="getConnection" start="326" end="411" line="15" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="getConnection" start="526" end="576" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="getConnection" start="349" end="400" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="getConnection" start="477" end="517" line="21" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="getConnection" start="501" end="516" line="21" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="getConnection" start="585" end="589" line="23" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="getConnection" start="271" end="309" line="14" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus/SubjectImpl/deleteRecord" statement-count="11" statements-invoked="6" statement-rate="54.55" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="deleteRecord" start="1436" end="1485" line="56" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="deleteRecord" start="1236" end="1280" line="49" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="deleteRecord" start="1119" end="1309" line="46" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="deleteRecord" start="1288" end="1300" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="deleteRecord" start="1375" end="1415" line="55" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="deleteRecord" start="1174" end="1196" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="deleteRecord" start="1495" end="1496" line="57" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="deleteRecord" start="1217" end="1281" line="49" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="deleteRecord" start="1399" end="1414" line="55" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="deleteRecord" start="1130" end="1145" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="SubjectImpl" class-type="Class" top-level-class="SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala" method="deleteRecord" start="1424" end="1486" line="56" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="Student_SubjectImpl" filename="com/knoldus/Student_SubjectImpl.scala" statement-count="30" statements-invoked="21" statement-rate="70.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knoldus/Student_SubjectImpl/getConnection" statement-count="8" statements-invoked="4" statement-rate="50.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="getConnection" start="533" end="583" line="21" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="getConnection" start="236" end="273" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="getConnection" start="333" end="418" line="14" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="getConnection" start="356" end="407" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="getConnection" start="484" end="524" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="getConnection" start="592" end="596" line="22" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="getConnection" start="278" end="316" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="getConnection" start="508" end="523" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus/Student_SubjectImpl/deleteRecord" statement-count="11" statements-invoked="6" statement-rate="54.55" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="deleteRecord" start="1163" end="1387" line="45" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="deleteRecord" start="1514" end="1571" line="55" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="deleteRecord" start="1280" end="1358" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="deleteRecord" start="1581" end="1582" line="56" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="deleteRecord" start="1218" end="1240" line="47" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="deleteRecord" start="1366" end="1378" line="49" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="deleteRecord" start="1453" end="1493" line="54" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="deleteRecord" start="1477" end="1492" line="54" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="deleteRecord" start="1174" end="1189" line="46" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="deleteRecord" start="1502" end="1572" line="55" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="deleteRecord" start="1261" end="1359" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus/Student_SubjectImpl/insertRecord" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="insertRecord" start="955" end="995" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="insertRecord" start="729" end="751" line="30" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="insertRecord" start="1084" end="1085" line="39" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="insertRecord" start="868" end="880" line="32" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="insertRecord" start="772" end="861" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="insertRecord" start="979" end="994" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="insertRecord" start="1004" end="1075" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="insertRecord" start="685" end="700" line="29" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="insertRecord" start="1016" end="1074" line="38" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="insertRecord" start="791" end="860" line="31" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="Student_SubjectImpl" class-type="Class" top-level-class="Student_SubjectImpl" source="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala" method="insertRecord" start="674" end="889" line="28" branch="true" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

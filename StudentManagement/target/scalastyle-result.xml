@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/StudentImpl.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="8" line="22" source="org.scalastyle.scalariform.NullChecker" severity="warning" message="Avoid using null"/>
+ </file>
+ <file name="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/SubjectImpl.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="8" line="23" source="org.scalastyle.scalariform.NullChecker" severity="warning" message="Avoid using null"/>
+ </file>
+ <file name="/home/knodus/IdeaProjects/StudentManagement/src/main/scala/com/knoldus/Student_SubjectImpl.scala">
+  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
+  <error column="8" line="22" source="org.scalastyle.scalariform.NullChecker" severity="warning" message="Avoid using null"/>
+ </file>
+</checkstyle>

@@ -1,0 +1,748 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com/knoldus/Student_SubjectImpl.scala.html
+        </title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package com.knoldus
+</span>2 <span style=''>
+</span>3 <span style=''>import java.sql.{Statement, DriverManager, Connection}
+</span>4 <span style=''>
+</span>5 <span style=''>import org.slf4j.LoggerFactory
+</span>6 <span style=''>
+</span>7 <span style=''>/**
+</span>8 <span style=''>  * Created by knodus on 12/2/16.
+</span>9 <span style=''>  */
+</span>10 <span style=''>class Student_SubjectImpl {
+</span>11 <span style=''>  def getConnection():Connection={
+</span>12 <span style=''>    val url:String = </span><span style='background: #AEF1AE'>"jdbc:mysql://localhost/student_data"</span><span style=''>
+</span>13 <span style=''>    </span><span style='background: #AEF1AE'>Class.forName("com.mysql.jdbc.Driver")</span><span style=''>
+</span>14 <span style=''>    try {
+</span>15 <span style=''>      </span><span style='background: #AEF1AE'>val conn: Connection = DriverManager.getConnection(url, "root", "knoldus")
+</span>16 <span style=''></span><span style='background: #AEF1AE'>      conn</span><span style=''>
+</span>17 <span style=''>    }
+</span>18 <span style=''>    catch{
+</span>19 <span style=''>      case ex:Exception =>
+</span>20 <span style=''>        val logger = </span><span style='background: #F0ADAD'>LoggerFactory.getLogger(this.getClass())</span><span style=''>
+</span>21 <span style=''>        </span><span style='background: #F0ADAD'>logger.info("Attempt to create connection Failed")</span><span style=''>
+</span>22 <span style=''>        </span><span style='background: #F0ADAD'>null</span><span style=''>
+</span>23 <span style=''>    }
+</span>24 <span style=''>
+</span>25 <span style=''>  }
+</span>26 <span style=''>
+</span>27 <span style=''>  def insertRecord(studid:Int,subid:Int): Int ={
+</span>28 <span style=''>    try {
+</span>29 <span style=''>      </span><span style='background: #AEF1AE'>val conn = getConnection()
+</span>30 <span style=''></span><span style='background: #AEF1AE'>      val stat: Statement = conn.createStatement()
+</span>31 <span style=''></span><span style='background: #AEF1AE'>      val rs: Int = stat.executeUpdate("insert into student_subject values(" + studid + ",'" + subid + "');")
+</span>32 <span style=''></span><span style='background: #AEF1AE'>      conn.close()
+</span>33 <span style=''></span><span style='background: #AEF1AE'>      rs</span><span style=''>
+</span>34 <span style=''>    }
+</span>35 <span style=''>    catch{
+</span>36 <span style=''>      case ex:Exception =>
+</span>37 <span style=''>        val logger = </span><span style='background: #AEF1AE'>LoggerFactory.getLogger(this.getClass())</span><span style=''>
+</span>38 <span style=''>        </span><span style='background: #AEF1AE'>logger.info("Exception while inserting in student_subject table : "+ex)</span><span style=''>
+</span>39 <span style=''>        </span><span style='background: #AEF1AE'>0</span><span style=''>
+</span>40 <span style=''>    }
+</span>41 <span style=''>
+</span>42 <span style=''>  }
+</span>43 <span style=''>
+</span>44 <span style=''>  def deleteRecord(studid:Int,subid:Int): Int ={
+</span>45 <span style=''>    try {
+</span>46 <span style=''>      </span><span style='background: #AEF1AE'>val conn = getConnection()
+</span>47 <span style=''></span><span style='background: #AEF1AE'>      val stat: Statement = conn.createStatement()
+</span>48 <span style=''></span><span style='background: #AEF1AE'>      val rs: Int = stat.executeUpdate("delete from student_subject where stud_id=" + studid+" and sub_id="+subid+";")
+</span>49 <span style=''></span><span style='background: #AEF1AE'>      conn.close()
+</span>50 <span style=''></span><span style='background: #AEF1AE'>      rs</span><span style=''>
+</span>51 <span style=''>    }
+</span>52 <span style=''>    catch{
+</span>53 <span style=''>      case ex:Exception =>
+</span>54 <span style=''>        val logger = </span><span style='background: #F0ADAD'>LoggerFactory.getLogger(this.getClass())</span><span style=''>
+</span>55 <span style=''>        </span><span style='background: #F0ADAD'>logger.info("Exception while deletion in student_subject table : "+ex)</span><span style=''>
+</span>56 <span style=''>        </span><span style='background: #F0ADAD'>0</span><span style=''>
+</span>57 <span style=''>    }
+</span>58 <span style=''>
+</span>59 <span style=''>  }
+</span>60 <span style=''>
+</span>61 <span style=''>
+</span>62 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          53
+        </td>
+        <td>
+          236
+          -
+          273
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;jdbc:mysql://localhost/student_data&quot;
+        </td>
+      </tr><tr>
+        <td>
+          13
+        </td>
+        <td>
+          54
+        </td>
+        <td>
+          278
+          -
+          316
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Class.forName
+        </td>
+        <td style="background: #AEF1AE">
+          java.this.lang.Class.forName(&quot;com.mysql.jdbc.Driver&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          56
+        </td>
+        <td>
+          333
+          -
+          418
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  val conn: java.sql.Connection = java.sql.DriverManager.getConnection(url, &quot;root&quot;, &quot;knoldus&quot;);
+  conn
+}
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          55
+        </td>
+        <td>
+          356
+          -
+          407
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.DriverManager.getConnection
+        </td>
+        <td style="background: #AEF1AE">
+          java.sql.DriverManager.getConnection(url, &quot;root&quot;, &quot;knoldus&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          58
+        </td>
+        <td>
+          484
+          -
+          524
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.slf4j.LoggerFactory.getLogger
+        </td>
+        <td style="background: #F0ADAD">
+          org.slf4j.LoggerFactory.getLogger(this.getClass())
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          57
+        </td>
+        <td>
+          508
+          -
+          523
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.getClass
+        </td>
+        <td style="background: #F0ADAD">
+          this.getClass()
+        </td>
+      </tr><tr>
+        <td>
+          21
+        </td>
+        <td>
+          59
+        </td>
+        <td>
+          533
+          -
+          583
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.slf4j.Logger.info
+        </td>
+        <td style="background: #F0ADAD">
+          logger.info(&quot;Attempt to create connection Failed&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          22
+        </td>
+        <td>
+          60
+        </td>
+        <td>
+          592
+          -
+          596
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          null
+        </td>
+      </tr><tr>
+        <td>
+          28
+        </td>
+        <td>
+          66
+        </td>
+        <td>
+          674
+          -
+          889
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  val conn: java.sql.Connection = Student_SubjectImpl.this.getConnection();
+  val stat: java.sql.Statement = conn.createStatement();
+  val rs: Int = stat.executeUpdate(&quot;insert into student_subject values(&quot;.+(studid).+(&quot;,\'&quot;).+(subid).+(&quot;\');&quot;));
+  conn.close();
+  rs
+}
+        </td>
+      </tr><tr>
+        <td>
+          29
+        </td>
+        <td>
+          61
+        </td>
+        <td>
+          685
+          -
+          700
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.Student_SubjectImpl.getConnection
+        </td>
+        <td style="background: #AEF1AE">
+          Student_SubjectImpl.this.getConnection()
+        </td>
+      </tr><tr>
+        <td>
+          30
+        </td>
+        <td>
+          62
+        </td>
+        <td>
+          729
+          -
+          751
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.Connection.createStatement
+        </td>
+        <td style="background: #AEF1AE">
+          conn.createStatement()
+        </td>
+      </tr><tr>
+        <td>
+          31
+        </td>
+        <td>
+          64
+        </td>
+        <td>
+          772
+          -
+          861
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.Statement.executeUpdate
+        </td>
+        <td style="background: #AEF1AE">
+          stat.executeUpdate(&quot;insert into student_subject values(&quot;.+(studid).+(&quot;,\'&quot;).+(subid).+(&quot;\');&quot;))
+        </td>
+      </tr><tr>
+        <td>
+          31
+        </td>
+        <td>
+          63
+        </td>
+        <td>
+          791
+          -
+          860
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.String.+
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;insert into student_subject values(&quot;.+(studid).+(&quot;,\'&quot;).+(subid).+(&quot;\');&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          32
+        </td>
+        <td>
+          65
+        </td>
+        <td>
+          868
+          -
+          880
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.Connection.close
+        </td>
+        <td style="background: #AEF1AE">
+          conn.close()
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          68
+        </td>
+        <td>
+          955
+          -
+          995
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.slf4j.LoggerFactory.getLogger
+        </td>
+        <td style="background: #AEF1AE">
+          org.slf4j.LoggerFactory.getLogger(this.getClass())
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          67
+        </td>
+        <td>
+          979
+          -
+          994
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.getClass
+        </td>
+        <td style="background: #AEF1AE">
+          this.getClass()
+        </td>
+      </tr><tr>
+        <td>
+          38
+        </td>
+        <td>
+          70
+        </td>
+        <td>
+          1004
+          -
+          1075
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.slf4j.Logger.info
+        </td>
+        <td style="background: #AEF1AE">
+          logger.info(&quot;Exception while inserting in student_subject table : &quot;.+(ex))
+        </td>
+      </tr><tr>
+        <td>
+          38
+        </td>
+        <td>
+          69
+        </td>
+        <td>
+          1016
+          -
+          1074
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.String.+
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Exception while inserting in student_subject table : &quot;.+(ex)
+        </td>
+      </tr><tr>
+        <td>
+          39
+        </td>
+        <td>
+          71
+        </td>
+        <td>
+          1084
+          -
+          1085
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          0
+        </td>
+      </tr><tr>
+        <td>
+          45
+        </td>
+        <td>
+          77
+        </td>
+        <td>
+          1163
+          -
+          1387
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  val conn: java.sql.Connection = Student_SubjectImpl.this.getConnection();
+  val stat: java.sql.Statement = conn.createStatement();
+  val rs: Int = stat.executeUpdate(&quot;delete from student_subject where stud_id=&quot;.+(studid).+(&quot; and sub_id=&quot;).+(subid).+(&quot;;&quot;));
+  conn.close();
+  rs
+}
+        </td>
+      </tr><tr>
+        <td>
+          46
+        </td>
+        <td>
+          72
+        </td>
+        <td>
+          1174
+          -
+          1189
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.Student_SubjectImpl.getConnection
+        </td>
+        <td style="background: #AEF1AE">
+          Student_SubjectImpl.this.getConnection()
+        </td>
+      </tr><tr>
+        <td>
+          47
+        </td>
+        <td>
+          73
+        </td>
+        <td>
+          1218
+          -
+          1240
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.Connection.createStatement
+        </td>
+        <td style="background: #AEF1AE">
+          conn.createStatement()
+        </td>
+      </tr><tr>
+        <td>
+          48
+        </td>
+        <td>
+          74
+        </td>
+        <td>
+          1280
+          -
+          1358
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.String.+
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;delete from student_subject where stud_id=&quot;.+(studid).+(&quot; and sub_id=&quot;).+(subid).+(&quot;;&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          48
+        </td>
+        <td>
+          75
+        </td>
+        <td>
+          1261
+          -
+          1359
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.Statement.executeUpdate
+        </td>
+        <td style="background: #AEF1AE">
+          stat.executeUpdate(&quot;delete from student_subject where stud_id=&quot;.+(studid).+(&quot; and sub_id=&quot;).+(subid).+(&quot;;&quot;))
+        </td>
+      </tr><tr>
+        <td>
+          49
+        </td>
+        <td>
+          76
+        </td>
+        <td>
+          1366
+          -
+          1378
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.sql.Connection.close
+        </td>
+        <td style="background: #AEF1AE">
+          conn.close()
+        </td>
+      </tr><tr>
+        <td>
+          54
+        </td>
+        <td>
+          79
+        </td>
+        <td>
+          1453
+          -
+          1493
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.slf4j.LoggerFactory.getLogger
+        </td>
+        <td style="background: #F0ADAD">
+          org.slf4j.LoggerFactory.getLogger(this.getClass())
+        </td>
+      </tr><tr>
+        <td>
+          54
+        </td>
+        <td>
+          78
+        </td>
+        <td>
+          1477
+          -
+          1492
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.getClass
+        </td>
+        <td style="background: #F0ADAD">
+          this.getClass()
+        </td>
+      </tr><tr>
+        <td>
+          55
+        </td>
+        <td>
+          80
+        </td>
+        <td>
+          1514
+          -
+          1571
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.String.+
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;Exception while deletion in student_subject table : &quot;.+(ex)
+        </td>
+      </tr><tr>
+        <td>
+          55
+        </td>
+        <td>
+          81
+        </td>
+        <td>
+          1502
+          -
+          1572
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          org.slf4j.Logger.info
+        </td>
+        <td style="background: #F0ADAD">
+          logger.info(&quot;Exception while deletion in student_subject table : &quot;.+(ex))
+        </td>
+      </tr><tr>
+        <td>
+          56
+        </td>
+        <td>
+          82
+        </td>
+        <td>
+          1581
+          -
+          1582
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          0
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

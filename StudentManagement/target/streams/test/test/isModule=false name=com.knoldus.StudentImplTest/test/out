@@ -1,0 +1,7 @@
+[0m[[0minfo[0m] [0m[32mStudentImplTest:[0m[0m
+[0m[[0minfo[0m] [0m[32m- StudentImpl: getConnection[0m[0m
+[0m[[0minfo[0m] [0m[32m- StudentImpl : insertRecord :Adding duplicate value[0m[0m
+[0m[[0minfo[0m] [0m[32m- StudentImpl : insertRecord :Adding new row[0m[0m
+[0m[[0minfo[0m] [0m[32m- StudentImpl : deleteRecord[0m[0m
+[0m[[0minfo[0m] [0m[32m- StudentImpl : updateEmail[0m[0m
+[0m[[0minfo[0m] [0m[32m- StudentImpl : updateName[0m[0m
