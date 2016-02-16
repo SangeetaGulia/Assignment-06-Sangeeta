@@ -1,5 +1,0 @@
-[0m[[0minfo[0m] [0m[32mSubectImplTest:[0m[0m
-[0m[[0minfo[0m] [0m[32m- SubjectImpl: getConnection[0m[0m
-[0m[[0minfo[0m] [0m[32m- SubjectImpl : insertRecord :Adding duplicate value[0m[0m
-[0m[[0minfo[0m] [0m[32m- SubjectImpl : insertRecord :Adding new row[0m[0m
-[0m[[0minfo[0m] [0m[32m- SubjectImpl : deleteRecord[0m[0m
